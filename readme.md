@@ -6,8 +6,8 @@
 ```npm i github:KotoriK/bilibili-api-js```
 ## 用法
 ```ts
-import { getDanmuInfo, GetDanmuInfo_Data } from "bilibili-api-js/live"
-import { RequestExecuter } from "bilibili-api-js"
+import { getDanmuInfo, GetDanmuInfo_Data } from "bilibili-api/live"
+import { RequestExecuter } from "bilibili-api"
 import got from 'got' //举例子而已，实际上拿哪个库应该都行
 
 const performRequest: RequestExcuter = ({ url, options }) => got(url, options).then((resp) => JSON.parse(resp.body))
