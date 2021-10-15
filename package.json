@@ -1,0 +1,26 @@
+{
+  "name": "bilibili-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "script": {
+    "build": "microbundle"
+  },
+  "keywords": [
+    "api",
+    "bilibili"
+  ],
+  "files": [
+    "./dist"
+  ],
+  "author": {
+    "name": "KotoriK",
+    "url": "https://github.com/KotoriK"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "microbundle": "^0.14.1",
+    "typescript": "^4.4.4"
+  }
+}
