@@ -12,7 +12,7 @@
     "bilibili"
   ],
   "files": [
-    "./dist"
+    "dist"
   ],
   "author": {
     "name": "KotoriK",
