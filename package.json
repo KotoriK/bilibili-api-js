@@ -19,7 +19,7 @@
     "url": "https://github.com/KotoriK"
   },
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "microbundle": "^0.14.1",
     "typescript": "^4.4.4"
   }
