@@ -1,5 +1,5 @@
 import { APIRequest, APIResponse } from "./api";
-export declare function getSpaceAccInfo(roomId: string | number): APIRequest<APIResponse<GetSpaceAccInfo_Data>>;
+export declare function getSpaceAccInfo(mid: string | number): APIRequest<APIResponse<GetSpaceAccInfo_Data>>;
 export interface GetSpaceAccInfo_Data {
     mid: number;
     name: string;
