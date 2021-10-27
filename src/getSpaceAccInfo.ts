@@ -1,8 +1,8 @@
 import { APIRequest, APIResponse, SEC, USER_AGENT } from "./api";
 
-export function getSpaceAccInfo(roomId: string | number): APIRequest<APIResponse<GetSpaceAccInfo_Data>> {
+export function getSpaceAccInfo(mid: string | number): APIRequest<APIResponse<GetSpaceAccInfo_Data>> {
     return {
-        url: 'https://api.bilibili.com/x/space/acc/info?mid=' + roomId,
+        url: 'https://api.bilibili.com/x/space/acc/info?mid=' + mid,
         options: {
             headers: {
                 ...SEC,
